@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    background: var(--bs-dark);
+    overflow-x: hidden;
+}
+
+body.modal-open {
+    overflow-y: hidden !important;
+}
+
+.modal-dialog{
+    top: 30%;
+}
+
+.card{
+    box-shadow: 0 .5rem 2.4rem rgba(0,0,0,0.5);
+}
+
+.taskCompleted{
+    text-decoration: line-through;
+}
